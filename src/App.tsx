@@ -1,17 +1,12 @@
-
-import './App.css'
-
+import "./App.css";
+import Navbar from "./layout/navbar/Navbar.js";
+import MainPage from "./pages/MainPage/Index.js";
 function App() {
-
-
   return (
-    <>
-      <h1 className="text-blue-200">
-      Hello world!
-     </h1>
-       
-    </>
-  )
+    <main className="w-full">
+      <MainPage />
+    </main>
+  );
 }
 
-export default App
+export default App;
